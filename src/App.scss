@@ -1,0 +1,47 @@
+.header-img{
+    height:8rem;
+    margin:1rem
+}
+.menu-container{
+    width: 25rem;
+    height: 43rem;
+    background-color: #FFA500;
+    display: grid;
+    grid-template-rows: 10%,90%;
+    grid-template-areas: "top","bottom";
+    border-radius: 7px;
+    margin:  auto ;
+    justify-content: center;
+    overflow: hidden;
+   margin-bottom: 1rem;
+}
+.top-card{
+    grid-area: top;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    margin: 0.3rem;
+}
+ /*  .bars{
+    width: 5rem;
+    height: 40rem;
+    background-color: #53C1DE;
+    position: relative;
+    top: -45rem;
+    left:10rem;
+   transform: rotate(-45deg);
+    z-index: 0;
+}    */
+.card-container{
+    grid-area: bottom;
+    z-index: 999;
+    gap:2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  padding: 0.9rem;
+  margin-top: 2.5rem;
+
+  
+
+}
